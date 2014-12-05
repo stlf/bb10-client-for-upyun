@@ -20,6 +20,29 @@ Blackberry 10 平台原生UPYUN客户端工具
 **使用截图:**
 -
 
+### **应用图标：**
+
+![应用图标:](https://github.com/stlf/bb10-client-for-UPYUN/raw/master/screen/IMG_0.png)
+### **登录：**
+![登录界面:](https://github.com/stlf/bb10-client-for-UPYUN/raw/master/screen/IMG_1.png)
+### **目录列表：**
+![目录列表：](https://github.com/stlf/bb10-client-for-UPYUN/raw/master/screen/IMG_5.png)
+### **目录菜单：**
+![目录操作菜单1：](https://github.com/stlf/bb10-client-for-UPYUN/raw/master/screen/IMG_12.png)
+### **创建目录：**
+![创建目录1：](https://github.com/stlf/bb10-client-for-UPYUN/raw/master/screen/IMG_3.png)
+![创建目录2：](https://github.com/stlf/bb10-client-for-UPYUN/raw/master/screen/IMG_4.png)
+### **文件菜单：**
+![文件操作菜单1：](https://github.com/stlf/bb10-client-for-UPYUN/raw/master/screen/IMG_6.png)
+![文件操作菜单2：](https://github.com/stlf/bb10-client-for-UPYUN/raw/master/screen/IMG_7.png)
+### **文件上传：**
+![上传文件1：](https://github.com/stlf/bb10-client-for-UPYUN/raw/master/screen/IMG_14.png)
+![上传文件2：](https://github.com/stlf/bb10-client-for-UPYUN/raw/master/screen/IMG_15.png)
+### **文件菜单 + 打开外链：**
+![打开外链1：](https://github.com/stlf/bb10-client-for-UPYUN/raw/master/screen/IMG_24.png)
+![打开外链2：](https://github.com/stlf/bb10-client-for-UPYUN/raw/master/screen/IMG_25.png)
+### **关于：**
+![关于：](https://github.com/stlf/bb10-client-for-UPYUN/raw/master/screen/IMG_26.png)
 
 -------------
 
