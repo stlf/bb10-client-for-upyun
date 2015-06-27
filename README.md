@@ -75,6 +75,7 @@ Blackberry 10 平台原生UPYUN客户端工具
 -
 > * 增加登录信息记忆功能(已完成)
 > * 增加文件上传、下载进度提示 (已完成)
+> * 国际化支持
 > * 默认使用https, 增加安全性
 > * 增加图片处理功能
 > * ... ...
@@ -92,5 +93,6 @@ Blackberry 10 平台原生UPYUN客户端工具
 
 [方法一参见这里]:http://iiberry.com/thread-26926-1-1.html
 [方法二参见这里]:http://iiberry.com/thread-6872-1-1.html
+[这里下载]:https://github.com/stlf/bb10-client-for-upyun/blob/master/arm/o.le-v7/bb10-client-for-UPYUN-1_0_6_6.bar
 [Apache License]: http://www.apache.org/licenses/
 
