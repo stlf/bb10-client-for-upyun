@@ -33,26 +33,6 @@ UpyunClient::UpyunClient(const QString &usr, const QString &pass,
 
 template<typename CT>
 int waiting_reply(QNetworkReply *reply, CT *c) {
-	QEventLoop loop;
-
-	QObject::connect(c, SIGNAL(notifyStop()), &loop, SLOT(quit()),
-			Qt::QueuedConnection);
-
-	bool is_notify_stop = false;
-
-	// QObject::connect(c, SIGNAL(notifyStop()), [&](){is_notify_stop = true;});
-
-	QObject::connect(c, SIGNAL(notifyStop()), &loop, SLOT(quit()));
-
-	QObject::connect(reply, SIGNAL(downloadProgress(qint64,qint64)), c,
-			SIGNAL(progress(qint64,qint64)), Qt::UniqueConnection);
-
-	QObject::connect(reply, SIGNAL(uploadProgress(qint64,qint64)), c,
-			SIGNAL(progress(qint64,qint64)), Qt::UniqueConnection);
-
-	QObject::connect(reply, SIGNAL(finished()), &loop, SLOT(quit()));
-
-	loop.exec();
 
 	if (is_notify_stop)
 		return HTTP_ABORT;
