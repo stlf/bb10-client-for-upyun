@@ -15,7 +15,6 @@
  */
 
 #include <QNetworkReply>
-#include <QEventLoop>
 #include <QFile>
 #include <QStringList>
 
