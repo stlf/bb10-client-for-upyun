@@ -32,7 +32,6 @@ UpyunClient::UpyunClient(const QString &usr, const QString &pass,
 
 template<typename CT>
 int waiting_reply(QNetworkReply *reply, CT *c) {
-
 	if (is_notify_stop)
 		return HTTP_ABORT;
 
